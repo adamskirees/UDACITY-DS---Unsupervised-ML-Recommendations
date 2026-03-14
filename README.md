@@ -4,7 +4,9 @@
 This project develops a multi-strategy recommendation system for the IBM Watson Studio community. By analyzing user-article interactions, the system personalizes the discovery of assets (notebooks, datasets, and articles) to reduce search friction and improve user engagement.
 
 ## Business Case
-In a vast ecosystem of technical assets, users often face "choice paralysis." This engine implements a tiered fallback logic to ensure every user—from a first-time visitor to a power user—receives relevant content:
+In a vast ecosystem of technical assets, users often face "choice paralysis." This project aims to connect users to the most relevent articles they should be reading. Machine learning / unsupervised is a great use case to find "neighbours" that read similar articles, and then show a user what articles they should be reading (but have'nt yet). 
+
+This engine implements a tiered fallback logic to ensure every user—from a first-time visitor to a power user—receives relevant content:
 
 1. **New Users (Cold Start):** Rank-based recommendations using global popularity.
 2. **Intermediate Users:** Content-based filtering using NLP (TF-IDF & K-Means) to find similar articles.
@@ -21,3 +23,8 @@ In a vast ecosystem of technical assets, users often face "choice paralysis." Th
 
 
 ## Starer 
+
+
+
+## Futuer implimentations
+A next stage implimentation could involve A/B Testing to measrue the click through rates for users (??)
